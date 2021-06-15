@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TrackHub</name>
+   <tag></tag>
+   <elementGuidId>101bdbe8-86e0-4038-a7d5-6d2f0c9c9ec1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='Template_IOHub_wt43_block_OutSystemsUIWeb_wt16_block_wtContent_wtMainContent_OutSystemsUIWeb_wtOperationalApps_block_wtListRecords_wtListRecords3_ctl02_wt18_wt7']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Template_IOHub_wt43_block_OutSystemsUIWeb_wt16_block_wtContent_wtMainContent_OutSystemsUIWeb_wtOperationalApps_block_wtListRecords_wtListRecords3_ctl02_wt18_wt7 > div.menu_square</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu_square</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TrackHub</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Template_IOHub_wt43_block_OutSystemsUIWeb_wt16_block_wtContent_wtMainContent_OutSystemsUIWeb_wtOperationalApps_block_wtListRecords_wtListRecords3_ctl02_wt18_wt7&quot;)/div[@class=&quot;menu_square&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='Template_IOHub_wt43_block_OutSystemsUIWeb_wt16_block_wtContent_wtMainContent_OutSystemsUIWeb_wtOperationalApps_block_wtListRecords_wtListRecords3_ctl02_wt18_wt7']/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Tracking System'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATS'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training Analytics'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/span/a[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

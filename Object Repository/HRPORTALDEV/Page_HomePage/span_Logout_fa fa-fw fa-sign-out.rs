@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Logout_fa fa-fw fa-sign-out</name>
+   <tag></tag>
+   <elementGuidId>8cb2909e-32a6-4fdf-84e2-1581340f7fc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='Template_IOHub_wt49_block_OutSystemsUIWeb_wt16_block_wtHeader_wtRight_HRPortal_TH_wt1_block_OutSystemsUIWeb_wt1_block_wtFooter_wt34']/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-fw.fa-sign-out</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-fw fa-sign-out</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Template_IOHub_wt49_block_OutSystemsUIWeb_wt16_block_wtHeader_wtRight_HRPortal_TH_wt1_block_OutSystemsUIWeb_wt1_block_wtFooter_wt34&quot;)/span[@class=&quot;fa fa-fw fa-sign-out&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='Template_IOHub_wt49_block_OutSystemsUIWeb_wt16_block_wtHeader_wtRight_HRPortal_TH_wt1_block_OutSystemsUIWeb_wt1_block_wtFooter_wt34']/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

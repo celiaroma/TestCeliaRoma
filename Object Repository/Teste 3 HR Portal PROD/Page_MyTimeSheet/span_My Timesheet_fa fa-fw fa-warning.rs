@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_My Timesheet_fa fa-fw fa-warning</name>
+   <tag></tag>
+   <elementGuidId>ca6a6ce6-cc78-4495-bc64-ff428e30e93d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='HRPortal_TH_wt24_block_OutSystemsUIWeb_wt16_block_wtContent_wtTitle_RichWidgets_wtAlertOverDue_icon_block']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-fw.fa-warning</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-fw fa-warning</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;HRPortal_TH_wt24_block_OutSystemsUIWeb_wt16_block_wtContent_wtTitle_RichWidgets_wtAlertOverDue_icon_block&quot;)/span[@class=&quot;fa fa-fw fa-warning&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='HRPortal_TH_wt24_block_OutSystemsUIWeb_wt16_block_wtContent_wtTitle_RichWidgets_wtAlertOverDue_icon_block']/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>
