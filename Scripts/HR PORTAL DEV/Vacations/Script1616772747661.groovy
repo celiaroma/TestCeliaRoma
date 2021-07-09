@@ -21,31 +21,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrportaldev.iohub.pt/HRPortal_TH/Login.aspx')
 
-WebUI.setText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
+WebUI.setText(findTestObject('Object Repository/09072021 Vacations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
     'celia.roma.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/09072021 Vacations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_HomePage/div_VacationsSchedule vacations and absences'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_HomePage/div_VacationsSchedule vacations and absences'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyVacations/a_My Vacations'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_MyVacations/a_Requests'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyVacations/a_Details'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_MyVacations/span_Approved Requests'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Absences Requests/input_Vacation Days_HRPortal_TH_wt68blockOu_12165a'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_MyTeamVacations/a_Requests'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyVacations/span_Requests_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_MyTeamVacations/span_Pending Requests'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyVacations/span_Approved Requests'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_AllPendingRequests/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyTeamVacations/span_Requests_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_AllPendingRequests/span_Vacation Days'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyTeamVacations/span_Pending Requests'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_Vacation Days/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_AllPendingRequests/span_Management_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_Vacation Days/span_Holidays'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_AllPendingRequests/span_Vacation Days'))
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_Holidays/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
+
+WebUI.click(findTestObject('Object Repository/09072021 Vacations/Page_Holidays/span_Logout_fa fa-fw fa-sign-out'))
 

@@ -21,25 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrportaldev.iohub.pt/HRPortal_TH/Login.aspx')
 
-WebUI.setText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
+WebUI.setText(findTestObject('Object Repository/09072021 Allocations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
     'celia.roma.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/09072021 Allocations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_HomePage/div_AllocationsManage projects and resources'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_HomePage/div_EvaluationParticipate in the evaluation_0f9c39'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_AllocationCalendar/a_List Of Employees'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_HomePage/img_Skip to Content (Press Enter)_max-width_5443df'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_List Of Employees/a_Projects'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_HomePage/div_AllocationsManage projects and resources'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Projects/input_Projects_HRPortal_TH_wt43blockOutSyst_ba7764'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_AllocationCalendar/a_List Of Employees'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_New Project/input_Is Active_HRPortal_TH_wt125blockOutSy_e7d153'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_List Of Employees/a_Projects'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Projects/div_Management'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_Projects/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Projects/span_Grant Roles'))
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_Projects/span_Grant Roles'))
+
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_Grant Roles/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
+
+WebUI.click(findTestObject('Object Repository/09072021 Allocations/Page_Grant Roles/span_Logout_fa fa-fw fa-sign-out'))
 

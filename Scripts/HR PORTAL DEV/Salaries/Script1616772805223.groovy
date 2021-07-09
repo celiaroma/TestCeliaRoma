@@ -21,64 +21,47 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrportaldev.iohub.pt/HRPortal_TH/Login.aspx')
 
-WebUI.setText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
-    'salary.admin')
+WebUI.setText(findTestObject('Object Repository/09072021 Salaries/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
+    'celia.roma.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/09072021 Salaries/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_HomePage/div_SalariesSubmit your expense and fringe reports'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_HomePage/div_SalariesSubmit your expense and fringe reports'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyReports/span_Reports_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_MyReports/a_Reports'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyReports/a_My Reports'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_MyReports/a_Employees Reports'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyReports/span_Reports_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_EmployeesReports/a_My Payment Slips'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_MyReports/a_Employees Reports'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_My Payment Slips/a_Salary Process'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_EmployeesReports/span_Fringe Benefits  Invoices'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_My Payment Slips/a_Verify'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_EmployeesReports/div_Fringe Benefits  Invoices'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Verify/span_Salary Process_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_EmployeesReports/div_Expenses Reports'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Verify/a_Prepare'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_EmployeesReports/a_My Payment Slips'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Prepare/span_Salary Process_Menu_DropDownArrow'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRPORTALDEV/Page_My Payment Slips/input_My Payment Slips_HRPortal_TH_wt37bloc_cd2622'), 
-    'Y1Nh4jfnDFCge6QYsO1dtg==')
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Prepare/a_ValidatePay'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_My Payment Slips/input_My Payment Slips_HRPortal_TH_wt37bloc_62ff9c'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Validate Pay/span_Salary Process_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_My Payment Slips/a_Salary Process'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Validate Pay/a_Finalize'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_My Payment Slips/a_Verify'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Finalize/span_Management_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Verify/div_Salary Process'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Finalize/a_Processings'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Verify/a_Prepare'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Processings/span_Management_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Prepare/div_3ValidatePay'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_Processings/a_ImportExport IRS'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Validate Pay/span_Salary Process_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_ImportIRSTables/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Validate Pay/a_Finalize'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Finalize/span_Management_Menu_DropDownArrow'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Finalize/a_Processings'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Processings/input_Processings_HRPortal_TH_wt33blockOutS_6aeca5'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_New Processing/input_Bonus_HRPortal_TH_wt86blockOutSystems_0b9350'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Processings/span_Management_Menu_DropDownArrow'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Processings/a_ImportExport IRS'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_ImportIRSTables/input_Import IRS Table_HRPortal_TH_wt92bloc_83b305'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_ImportIRSTables/img_Skip to Content (Press Enter)_max-width_5443df'))
+WebUI.click(findTestObject('Object Repository/09072021 Salaries/Page_ImportIRSTables/a_Logout'))
 

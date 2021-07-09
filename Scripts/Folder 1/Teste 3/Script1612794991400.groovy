@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://hrportal.iohub.pt:2210/HRPortal_TH/Login.aspx')
-
-WebUI.setText(findTestObject('Object Repository/Teste 3 HR Portal PROD/Page_Login/input_Remember login_OutSystemsUIWeb_wt27bl_8fa030'), 
-    'celia.roma@osquay.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Teste 3 HR Portal PROD/Page_Login/input_Remember login_OutSystemsUIWeb_wt27bl_9aad42'), 
-    'Y1Nh4jfnDFCge6QYsO1dtg==')
-
-WebUI.click(findTestObject('Object Repository/Teste 3 HR Portal PROD/Page_Login/input_Remember login_OutSystemsUIWeb_wt27bl_a0b239'))
-
-WebUI.click(findTestObject('Object Repository/Teste 3 HR Portal PROD/Page_HomePage/div_CV WizardBuild your CV'))
-
-WebUI.click(findTestObject('Object Repository/Teste 3 HR Portal PROD/Page_CVInfo/div_CV Wizard'))
-

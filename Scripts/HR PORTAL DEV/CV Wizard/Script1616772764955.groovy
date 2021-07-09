@@ -21,37 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrportaldev.iohub.pt/HRPortal_TH/Login.aspx')
 
-WebUI.setText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
+WebUI.setText(findTestObject('Object Repository/09072021 CVWizard/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
     'celia.roma.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/09072021 CVWizard/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_HomePage/div_CV WizardBuild your CV'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_HomePage/div_CV WizardBuild your CV'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_CVInfo/a_Unassigned CVs'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_CVInfo/a_Unassigned CVs'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Employee Info/a_Employees CVs'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Employee Info/a_Employees CVs'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Employees/span_Backoffice'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Employees/span_Backoffice'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Employees/a_Skills'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Employees/a_Skills'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Skills/span_Backoffice_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Skills/span_Backoffice_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Skills/a_Titles'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Skills/a_Titles'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Titles/input_Titles_HRPortal_TH_wt39blockOutSystem_0eb459'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Titles/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
 
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Titles/input_Name_HRPortal_TH_wt39blockOutSystemsU_d5395c'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Titles/span_Backoffice_Menu_DropDownArrow'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Titles/a_Skills'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Skills/input_Skills_HRPortal_TH_wt41blockOutSystem_fd710f'))
-
-WebUI.click(findTestObject('Object Repository/HRPORTALDEV/Page_Skills/input_Is Default_HRPortal_TH_wt41blockOutSy_6b7d46'))
+WebUI.click(findTestObject('Object Repository/09072021 CVWizard/Page_Titles/span_Logout_fa fa-fw fa-sign-out'))
 
