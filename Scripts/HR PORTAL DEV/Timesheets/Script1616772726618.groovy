@@ -21,31 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrportaldev.iohub.pt/HRPortal_TH/Login.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Timesheets 09072021/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
+WebUI.setText(findTestObject('09072021 Timesheets/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_6b2e3e'), 
     'celia.roma.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Timesheets 09072021/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
+WebUI.setEncryptedText(findTestObject('09072021 Timesheets/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_0204d7'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_Login/input_Remember login_OutSystemsUIWeb_wt29bl_048b02'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_HomePage/div_TimesheetsReview allocations to projects'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_HomePage/div_TimesheetsReview allocations to projects'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_MyTimeSheet/div_Approve Timesheets'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_MyTimeSheet/div_Approve Timesheets'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_ListOfEmployeesToApproveTS/a_Management'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_ListOfEmployeesToApproveTS/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_ListOfEmployeesToApproveTS/span_RowData'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_ListOfEmployeesToApproveTS/span_RowData'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_RowData/a_Management'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_RowData/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_RowData/span_Report'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_RowData/span_Report'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_Report/a_Management'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_Report/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_Report/a_Timesheets Approved'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_Report/a_Timesheets Approved'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_TimesheetsApproved/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_TimesheetsApproved/span_Celia Roma_fa fa-fw fa-angle-down fa-lg'))
 
-WebUI.click(findTestObject('Object Repository/Timesheets 09072021/Page_TimesheetsApproved/span_Logout_fa fa-fw fa-sign-out'))
+WebUI.click(findTestObject('09072021 Timesheets/Page_TimesheetsApproved/span_Logout_fa fa-fw fa-sign-out'))
 
